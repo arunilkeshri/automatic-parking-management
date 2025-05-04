@@ -1,8 +1,8 @@
 from escpos.printer import Usb
 from datetime import datetime
 
-VENDOR_ID = 0x04b8
-PRODUCT_ID = 0x0202
+VENDOR_ID = xxxxxx
+PRODUCT_ID = xxxxxx
 
 class ReceiptPrinter:
     def __init__(self):
