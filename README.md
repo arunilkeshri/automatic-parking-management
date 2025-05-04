@@ -19,50 +19,48 @@ A self-developed, modular system to automate parking lot operations using comput
 ---
 
 ## 📁 Project Structure
+```
 automatic-parking-management/
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
 └── src/
-├── **init**.py
-├── billing.py
-├── plate\_detection.py
-├── printer.py
-└── utils.py
+    ├── __init__.py
+    ├── billing.py
+    ├── plate_detection.py
+    ├── printer.py
+    └── utils.py
+```
 
 ---
 
 ## 🚀 Setup & Run
 
 1. **Clone the repository**  
-   
+   ```bash
    git clone https://github.com/arunilkeshri/automatic-parking-management.git
    cd automatic-parking-management
+   ```
 
-
-2. **Install dependencies**
-
-   
+2. **Install dependencies**  
+   ```bash
    python3 -m venv venv
    source venv/bin/activate  # macOS/Linux
    venv\Scripts\activate     # Windows
    pip install -r requirements.txt
-   
+   ```
 
-3. **Install Tesseract OCR**
-
-   * Install [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) for your OS
-   * Make sure it's in your system PATH or update `TESSERACT_CMD` in `utils.py`
+3. **Install Tesseract OCR**  
+   - Install [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) for your OS  
+   - Make sure it's in your system PATH or update `TESSERACT_CMD` in `utils.py`
 
 4. **Run Plate Detection**
-
-   
+   ```bash
    python src/plate_detection.py path/to/car_image.jpg
-   
+   ```
 
 ---
 
 ## 🔗 Connect with Me
 
 Made with 🚀 by [Arunil Keshri](https://www.linkedin.com/in/arunil-keshri)
-
