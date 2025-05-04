@@ -1,7 +1,7 @@
 from escpos.printer import Usb
 from datetime import datetime
 
-VENDOR_ID = xxxxxx
+VENDOR_ID = xxxxxx  
 PRODUCT_ID = xxxxxx
 
 class ReceiptPrinter:
